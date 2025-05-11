@@ -25,6 +25,8 @@ def render() -> gradio.Blocks:
 				with gradio.Blocks():
 					face_debugger_options.render()
 				with gradio.Blocks():
+					face_reconstructor_options.render()
+				with gradio.Blocks():
 					face_editor_options.render()
 				with gradio.Blocks():
 					face_enhancer_options.render()

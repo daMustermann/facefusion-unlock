@@ -6,6 +6,7 @@ from facefusion import state_manager, wording
 from facefusion.filesystem import list_directory
 from facefusion.processors.core import get_processors_modules
 from facefusion.uis.core import register_ui_component
+from facefusion.uis.components import face_reconstructor_options
 
 PROCESSORS_CHECKBOX_GROUP : Optional[gradio.CheckboxGroup] = None
 
