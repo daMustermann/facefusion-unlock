@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-python3 -m venv .venv_facefusion --system-site-packages=false
+python3 -m venv .venv_facefusion
 source .venv_facefusion/bin/activate
 pip install --upgrade pip
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.0
